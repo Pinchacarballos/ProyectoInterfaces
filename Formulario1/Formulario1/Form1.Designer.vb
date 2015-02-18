@@ -24,6 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -45,11 +46,21 @@ Partial Class Form1
         Me.Label2.Text = "Aprende a escribir"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(293, 190)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(155, 23)
+        Me.Button1.TabIndex = 2
+        Me.Button1.Text = "Aprende ti castron"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(645, 327)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
@@ -60,5 +71,6 @@ Partial Class Form1
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 
 End Class

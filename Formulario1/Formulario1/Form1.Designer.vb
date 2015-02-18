@@ -38,11 +38,12 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(278, 170)
+        Me.Label2.Location = New System.Drawing.Point(329, 174)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(130, 13)
+        Me.Label2.Size = New System.Drawing.Size(92, 13)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Aprende a escribir cazurro"
+        Me.Label2.Text = "Aprende a escribir"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'Form1
         '
